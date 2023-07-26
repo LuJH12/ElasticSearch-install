@@ -55,7 +55,7 @@ curl -X GET "localhost:9200/"
 curl: (52) Empty reply from server
 ```
 
-## ElasticSearch 配置文件的修改
+## ElasticSearch 配置文件的修改（内网连接）
 这里我们使用vim来修改配置文件`elasticsearch.yml`
 ```
 sudo vim /etc/elasticsearch/elasticsearch.yml
