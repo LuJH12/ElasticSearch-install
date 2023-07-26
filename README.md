@@ -50,4 +50,14 @@ curl -X GET "localhost:9200/"
   "tagline" : "You Know, for Search"
 }
 ```
+如果返回的是，则需要修改`elasticsearch.yml`文件中的`xpack.security.enabled: true`这一行的true改成false
+```
+curl: (52) Empty reply from server
+```
+
 ## ElasticSearch 配置文件的修改
+这里我们使用vim来修改配置文件`elasticsearch.yml`
+```
+sudo vim /etc/elasticsearch/elasticsearch.yml
+```
+找到包含`network.host`的行，取消注释，并
