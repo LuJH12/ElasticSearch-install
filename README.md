@@ -60,4 +60,7 @@ curl: (52) Empty reply from server
 ```
 sudo vim /etc/elasticsearch/elasticsearch.yml
 ```
-找到包含`network.host`的行，取消注释，并
+找到包含`network.host`的行，取消注释，并改成
+```
+network.host: 0.0.0.0
+```
