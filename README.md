@@ -50,7 +50,7 @@ curl -X GET "localhost:9200/"
   "tagline" : "You Know, for Search"
 }
 ```
-如果返回的是，则需要修改`elasticsearch.yml`文件中的`xpack.security.enabled: true`这一行的true改成false
+如果返回的是，则需要修改`elasticsearch.yml`文件中的`xpack.security.enabled: true`这一行的`true`改成`false`，后面会讲到如何修改`elasticsearch.yml`文件
 ```
 curl: (52) Empty reply from server
 ```
