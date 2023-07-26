@@ -20,9 +20,9 @@ sudo /bin/systemctl enable elasticsearch.service
 之后，你就可以使用下列命令来启动或关闭ElasticSearch的进程了
 ```
 sudo systemctl enable elasticsearch.service
-
+# 启动
 sudo systemctl start elasticsearch.service
-
+# 关闭
 sudo systemctl stop elasticsearch.service
 ```
 
