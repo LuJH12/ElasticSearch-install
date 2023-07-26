@@ -64,3 +64,4 @@ sudo vim /etc/elasticsearch/elasticsearch.yml
 ```
 network.host: 0.0.0.0
 ```
+最后，你就可以通过内网访问服务器的ElasticSearch了
